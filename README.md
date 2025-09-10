@@ -5,17 +5,17 @@ An advanced AI-powered conversational assistant built on a dual-model architectu
 
 ⚡ Dual-Model Architecture
 
-    Main Model → Handles reasoning, generates final answers, integrates context, and decides when to fetch external data.
+-Main Model → Handles reasoning, generates final answers, integrates context, and decides when to fetch external data.
 
-    Retriever Model → Lightweight, optimized for RAG-based retrieval and precise summarization only.
+=Retriever Model → Lightweight, optimized for RAG-based retrieval and precise summarization only.
 
 🧠 Intelligent Memory System
 
-    Summarizes conversations on-the-fly for long-context retention.
+-Summarizes conversations on-the-fly for long-context retention.
 
-    Uses turn relevance classification to avoid storing redundant or irrelevant data.
+-Uses turn relevance classification to avoid storing redundant or irrelevant data.
 
-    Retrieves memory only when the main model detects missing details.
+-Retrieves memory only when the main model detects missing details.
 
 🔍 Automatic Web Search
 
